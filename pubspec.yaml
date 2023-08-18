@@ -1,7 +1,7 @@
 name: baseui
 description: flutter 敏捷开发，基础UI组件
 version: 1.0.1
-homepage:
+homepage: 'https://github.com/vsguji/baseui'
 
 environment:
   sdk: '>=2.19.2 <3.0.0'

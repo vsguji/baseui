@@ -23,7 +23,7 @@ abstract class BaseStatelessWidget extends StatelessWidget {
     FlutterError.onError = (FlutterErrorDetails details) {
       FlutterError.presentError(details);
       onBaseCallBack(BaseCallBack(
-          type: BaseCallBackType.FLUTTER_ERROR,
+          type: BaseCallBackType.flutter_error,
           stackTrace: details.stack,
           errorMsg: 'Error from Flutter'));
     };

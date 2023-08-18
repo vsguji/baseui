@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-18 11:32:52
- * @LastEditTime: 2023-08-18 11:54:05
+ * @LastEditTime: 2023-08-18 14:05:06
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/base_state.dart
@@ -27,7 +27,7 @@ abstract class BaseState<T extends StatefulWidget> extends State<T> {
     FlutterError.onError = (FlutterErrorDetails details) {
       FlutterError.presentError(details);
       onBaseCallBack(BaseCallBack(
-          type: BaseCallBackType.FLUTTER_ERROR,
+          type: BaseCallBackType.flutter_error,
           stackTrace: details.stack,
           errorMsg: 'Error from Flutter'));
     };

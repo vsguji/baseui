@@ -1,12 +1,14 @@
+// ignore_for_file: constant_identifier_names
+
 /*
  * @Author: your name
  * @Date: 2023-08-18 11:34:59
- * @LastEditTime: 2023-08-18 11:49:26
+ * @LastEditTime: 2023-08-18 14:04:58
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/base_callBack.dart
  */
-enum BaseCallBackType { API_ERROR, FLUTTER_ERROR, INFO }
+enum BaseCallBackType { api_error, flutter_error, info }
 
 class BaseCallBack {
   //
