@@ -18,5 +18,6 @@ class BaseViewModel extends ChangeNotifier {
 
   set theme(BaseTheme theme) {
     _theme = theme;
+    notifyListeners();
   }
 }

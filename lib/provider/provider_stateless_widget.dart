@@ -14,6 +14,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class ProviderStateLessWidget extends BaseStatelessWidget {
+  const ProviderStateLessWidget({super.key});
+
   @override
   Widget baseBuild(BuildContext context) {
     return MultiProvider(

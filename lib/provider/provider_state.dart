@@ -13,12 +13,7 @@ import 'package:baseui/theme/base_view_model.dart';
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
 
-class ProviderStateFul<T extends StatefulWidget> extends BaseState<T> {
-  @override
-  void initState() {
-    super.initState();
-  }
-
+class ProviderState<T extends StatefulWidget> extends BaseState<T> {
   @override
   Widget baseBuild(Object context) {
     return MultiProvider(
@@ -28,13 +23,13 @@ class ProviderStateFul<T extends StatefulWidget> extends BaseState<T> {
       builder: (context, child) {
         final theme = Provider.of<BaseViewModel>(context).theme;
         final value = BaseBuildValue(theme: theme);
-        return elementBuild(context, value);
+        return itemBuild(context, value);
       },
     );
   }
 
   @required
-  Widget elementBuild(BuildContext context, BaseBuildValue value) {
+  Widget itemBuild(BuildContext context, BaseBuildValue value) {
     return Container();
   }
 }
