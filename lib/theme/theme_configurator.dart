@@ -6,9 +6,9 @@
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/base_theme_config.dart
  */
+import '../constant/base_string_constant.dart';
 import 'base_default_config.dart';
 import 'base_total_config.dart';
-import '../constant.dart';
 
 class BaseThemeConfig {
   BaseThemeConfig._() {

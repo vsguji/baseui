@@ -1,13 +1,13 @@
 /*
  * @Author: your name
  * @Date: 2023-08-22 17:43:17
- * @LastEditTime: 2023-08-23 10:04:15
+ * @LastEditTime: 2023-09-20 17:48:49
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/base_config.dart
  */
-import 'base_common_config.dart';
-import '../total/base_theme_config.dart';
+import '../configs/base_common_config.dart';
+import '../theme_configurator.dart';
 import '../constant/base_string_constant.dart';
 
 /// 组件配置基类
