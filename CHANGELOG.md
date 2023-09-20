@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2023-08-18 11:28:52
- * @LastEditTime: 2023-09-20 21:03:17
+ * @LastEditTime: 2023-09-20 21:05:08
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/CHANGELOG.md
@@ -19,3 +19,7 @@
 ## 1.0.3 
 
 * [update] dart 支持 3.1.2 
+
+## 1.0.4 
+
+* [update] 更新目录结构
