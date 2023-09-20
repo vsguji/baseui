@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-22 17:45:50
- * @LastEditTime: 2023-08-23 10:04:30
+ * @LastEditTime: 2023-09-20 21:03:53
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/base_common_config.dart
@@ -11,7 +11,7 @@ import 'dart:core';
 import 'package:flutter/painting.dart';
 
 import '../constant/base_string_constant.dart';
-import 'base_config.dart';
+import '../base/base_config.dart';
 
 /// 描述: 全局配置
 /// 配置属性：色值、字体大小、间距、圆角

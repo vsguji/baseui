@@ -1,14 +1,14 @@
 /*
  * @Author: your name
  * @Date: 2023-08-22 17:40:11
- * @LastEditTime: 2023-08-23 09:35:55
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2023-09-20 21:03:12
+ * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/base_theme_config.dart
  */
-import '../constant/base_string_constant.dart';
-import 'base_default_config.dart';
-import 'base_total_config.dart';
+import 'constant/base_string_constant.dart';
+import 'base/base_default_config_utils.dart';
+import 'configs/base_total_config.dart';
 
 class BaseThemeConfig {
   BaseThemeConfig._() {

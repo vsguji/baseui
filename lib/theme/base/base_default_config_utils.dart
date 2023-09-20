@@ -1,15 +1,15 @@
 /*
  * @Author: your name
  * @Date: 2023-08-22 17:47:48
- * @LastEditTime: 2023-08-23 09:35:42
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2023-09-20 21:03:08
+ * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/base_default_config.dart
  */
 import 'package:flutter/services.dart';
 
-import '../evey/base_common_config.dart';
-import 'base_total_config.dart';
+import '../configs/base_common_config.dart';
+import '../configs/base_total_config.dart';
 
 /// 全局,默认配置
 class BaseDefaultConfigUtils {
