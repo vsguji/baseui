@@ -1,12 +1,12 @@
 /*
  * @Author: your name
  * @Date: 2023-08-18 11:28:52
- * @LastEditTime: 2023-09-20 18:11:28
+ * @LastEditTime: 2023-09-21 10:48:23
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/baseui.dart
  */
-library baseui;
+library phoenix;
 
 /// utils
 export 'utils/brn_event_bus.dart';

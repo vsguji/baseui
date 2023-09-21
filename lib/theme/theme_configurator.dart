@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-22 17:40:11
- * @LastEditTime: 2023-09-20 21:03:12
+ * @LastEditTime: 2023-09-21 12:19:03
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/base_theme_config.dart
@@ -42,18 +42,18 @@ class BaseThemeConfig {
   BaseTotalConfig getConfig({String configId = GLOBAL_CONFIG_ID}) {
     BaseTotalConfig? allThemeConfig = globalConfig[configId] ??
         globalConfig[GLOBAL_CONFIG_ID] ??
-        globalConfig[BRUNO_CONFIG_ID];
+        globalConfig[PHOENIX_CONFIG_ID];
     assert(allThemeConfig != null, 'No suitable config found.');
     return allThemeConfig!;
   }
 
   /// 检查是否有默认配置
-  bool isBrunoConfig() => globalConfig[BRUNO_CONFIG_ID] != null;
+  bool isBrunoConfig() => globalConfig[PHOENIX_CONFIG_ID] != null;
 
   /// 没有默认配置 配置默认配置
   void _checkAndInitBrunoConfig() {
     if (!isBrunoConfig()) {
-      globalConfig[BRUNO_CONFIG_ID] = BaseDefaultConfigUtils.defaultAllConfig;
+      globalConfig[PHOENIX_CONFIG_ID] = BaseDefaultConfigUtils.defaultAllConfig;
     }
   }
 }

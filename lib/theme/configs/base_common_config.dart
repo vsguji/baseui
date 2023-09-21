@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-22 17:45:50
- * @LastEditTime: 2023-09-20 21:03:53
+ * @LastEditTime: 2023-09-20 22:43:36
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/base_common_config.dart
@@ -10,6 +10,7 @@ import 'dart:core';
 
 import 'package:flutter/painting.dart';
 
+import '../base/base_default_config_utils.dart';
 import '../constant/base_string_constant.dart';
 import '../base/base_config.dart';
 
@@ -500,4 +501,113 @@ class BaseCommonConfig extends BaseConfig {
     _iconSizeMd ??= commonConfig._iconSizeMd;
     _iconSizeLg ??= commonConfig._iconSizeLg;
   }
+
+  Color get brandPrimary =>
+      _brandPrimary ?? BaseDefaultConfigUtils.defaultCommonConfig.brandPrimary;
+  //
+  Color? get brandPrimaryTapColor => _brandPrimaryTap;
+  //
+  Color? get brandSuccessColor => _brandSuccess;
+  //
+  Color? get brandWarningColor => _brandWarning;
+  //
+  Color? get brandErrorColor => _brandError;
+  //
+  Color? get brandImportantColor => _brandImportant;
+  //
+  Color? get brandImportantValueColor => _brandImportantValue;
+  //
+  Color? get brandAuxiliaryColor => _brandAuxiliary;
+  //
+  Color get colorTextBase =>
+      _colorTextBase ??
+      BaseDefaultConfigUtils.defaultCommonConfig.colorTextBase;
+  //
+  Color? get colorTextImportantColor => _colorTextImportant;
+  //
+  Color get colorTextBaseInverse =>
+      _colorTextBaseInverse ??
+      BaseDefaultConfigUtils.defaultCommonConfig.colorTextBaseInverse;
+  //
+  Color get colorTextSecondary =>
+      _colorTextSecondary ??
+      BaseDefaultConfigUtils.defaultCommonConfig.colorTextSecondary;
+  //
+  Color? get colorTextDisabledColor => _colorTextDisabled;
+  //
+  Color? get colorTextHintColor => _colorTextHint;
+  //
+  Color? get colorLinkColor => _colorLink;
+  //
+  Color? get fillBaseColor => _fillBase;
+  //
+  Color? get fillBodyColor => _fillBody;
+  //
+  Color? get fillMaskColor => _fillMask;
+  //
+  Color get borderColorBase =>
+      _borderColorBase ??
+      BaseDefaultConfigUtils.defaultCommonConfig.borderColorBase;
+  //
+  Color? get dividerColorBaseColor => _dividerColorBase;
+  //
+  double? get fontSizeBebasValue => _fontSizeBebas;
+  //
+  double? get fontSizeHeadLgValue => _fontSizeHeadLg;
+  //
+  double? get fontSizeHeadValue => _fontSizeHead;
+  //
+  double? get fontSizeSubHeadValue => _fontSizeSubHead;
+  //
+  double? get fontSizeBaseValue => _fontSizeBase;
+  //
+  double? get fontSizeCaptionValue => _fontSizeCaption;
+  //
+  double? get fontSizeCaptionSmValue => _fontSizeCaptionSm;
+  //
+  double? get radiusXsValue => _radiusXs;
+  //
+  double? get radiusSmValue => _radiusSm;
+  //
+  double? get radiusMdValue => _radiusMd;
+  //
+  double? get radiusLgValue => _radiusLg;
+  //
+  double? get borderWidthSmValue => _borderWidthSm;
+  //
+  double? get borderWidthMdValue => _borderWidthMd;
+  //
+  double? get borderWidthLgValue => _borderWidthLg;
+  //
+  double? get hSpacingXsValue => _hSpacingXs;
+  //
+  double? get hSpacingSmValue => _hSpacingSm;
+  //
+  double? get hSpacingMdValue => _hSpacingMd;
+  //
+  double? get hSpacingLgValue => _hSpacingLg;
+  //
+  double? get hSpacingXlValue => _hSpacingXl;
+  //
+  double? get hSpacingXxlValue => _hSpacingXxl;
+  //
+  double? get vSpacingXsValue => _vSpacingXs;
+  //
+  double? get vSpacingSmValue => _vSpacingSm;
+  //
+  double? get vSpacingMdValue => _vSpacingMd;
+  //
+  double? get vSpacingLgValue => _vSpacingLg;
+  //
+  double? get vSpacingXlValue => _vSpacingXl;
+  //
+  double? get vSpacingXxlValue => _vSpacingXxl;
+  //
+  double? get iconSizeXxsValue => _iconSizeXxs;
+  //
+  double? get iconSizeSmValue => _iconSizeSm;
+  //
+  double? get iconSizeMdValue => _iconSizeMd;
+  //
+  double? get iconSizeLgValue => _iconSizeLg;
 }
