@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2023-08-22 17:45:50
- * @LastEditTime: 2023-09-20 22:43:36
+ * @LastEditTime: 2023-09-21 12:38:14
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/lib/theme/base_common_config.dart
@@ -437,7 +437,7 @@ class BaseCommonConfig extends BaseConfig {
   /// 默认为 32
   double? _iconSizeLg;
 
-  /// 优先级 [GLOBAL_CONFIG_ID] 获取配置 > [BRUNO_CONFIG_ID] 获取配置
+  /// 优先级 [GLOBAL_CONFIG_ID] 获取配置 > [PHOENIX_CONFIG_ID] 获取配置
   @override
   void initThemeConfig(
     String configId, {

@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2023-08-18 11:28:52
- * @LastEditTime: 2023-09-20 21:14:11
+ * @LastEditTime: 2023-09-21 12:48:32
  * @LastEditors: lipeng 1162423147@qq.com
  * @Description: In User Settings Edit
  * @FilePath: /baseui/CHANGELOG.md
@@ -28,3 +28,7 @@
 ## 1.0.5
 
 * [update] 更新版本
+
+## 1.0.6
+
+* [update] 优化基础配置
